@@ -1,0 +1,63 @@
+@import url(reset.css);
+
+body {
+   font-family: 'Caveat', cursive;
+   font-size: 27px;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+.container {
+   max-width: 1000px;
+   margin: 0 auto;
+   text-align: center;
+   padding: 20px;
+   border: 7px double;
+}
+
+.img img {
+   width: 990px;
+   margin-bottom: 20px;
+}
+
+.list {
+   margin: 30px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+.list li {
+   display: inline;
+   padding: 10px;
+}
+
+.list li a {
+   color: rgb(243, 121, 7);
+   text-shadow: 2px 2px 0 #000;
+}
+
+.title {
+   font-size: 34px;
+   font-weight: 700;
+   color: rgb(241, 1, 1);
+   text-decoration: underline;
+}
+
+.text p {
+   margin: 20px;
+}
+
+.footer {
+   margin-top: 500px;
+}
+
+.footer img {
+   width: 200px;
+}
+
+.footer h3 {
+   display: inline;
+}
+
